@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: black;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#banner{
+    background: url(./image/banner.jpg)top center/cover no-repeat;
+    height: 100vh;
+}
+ 
+header{
+    width: 1126px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#banner .about-header{
+    width: 100%;
+    height: 84px;
+    text-align: right;
+}
+#banner a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 43px;
+    font-size: 20px;
+    padding-top: 18px;
+}
+.btn-start a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 43px;
+    text-align: center;
+    padding-top: 18px;
+}
+#banner .about, .sign-in{
+    padding: 13px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+    cursor: pointer;
+    margin-right: 0px;
+}
+#banner .sign-in{
+    margin-left: 20px;
+    color: #d127f3 !important;
+    border: 3px solid #8508ec;
+    border-radius: 30px;
+}
+#banner .logo{
+    background: url(./image/hapoERP.png)center center no-repeat;
+    margin-top: 130px;
+    height: 200px;
+}
+#banner .content-center{
+    height: 50px;
+    margin-bottom: 90px;
+}
+
+#banner .left, .center, .right{
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}
+#banner .Icon-img{
+    width: 50px;
+    height: 50px;
+}
+#banner .content-center p{
+    font-size: 40px;
+}
+#banner .content{
+    text-align: center;
+}
+#banner .content .text{
+    font-style: italic;
+    font-size: 20px;
+}
+#banner .btn-start{
+    margin-top: 32px;
+    padding-bottom: 260px;
+}
+.btn-start .button{
+    border-radius: 5%;
+    background: linear-gradient(311.12deg, #d127f3 0%, #8508ec 100%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    color: #ffffff;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
+    height: 36px;
+    width: 144px;
+    font-family: Roboto;
+    cursor: pointer;
+    font-size: 1em;
+}
+.btn-start .button:hover{
+        background: linear-gradient(311.12deg, #ec1392 0%, #760d8a 100%);
+}
+.btn-start .button a{
+    padding-top: 15px;
+}
+
+#section-learn{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0px 10px 10px 0 rgb(0 0 0 / 10%);
+    display: block;
+}
+.green{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#section-learn::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+.with-img{
+    height: 500px;
+    width: 47%;
+    margin: 0 1.5%;
+    float: left;
+}
+.container{
+    width: 47%;
+    margin: 0 1.5%;
+    height: 365px;
+    float: left;
+    color: white;
+}
+.text-icon{
+    font-size: 3em;
+    text-decoration: underline;
+}
+ .text-icon img{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+ .content-main{
+    margin: 30px auto;
+    font-size: 20px;
+    font-style: italic;
+    color: lightgray;
+}
+.content-main p{
+    padding-top: 36px;
+    color: white;
+    line-height: 26px;
+    text-align: justify;
+}
+#section-report{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+#section-report .with-img{
+    height: 500px;
+    width: 47%;
+    margin: 0 1.5%;
+    float: right;
+}
+#section-report::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+#section-feature{
+    height: 332px;
+    display: flex;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    background: linear-gradient(311.12deg, #d127f3 0%, #8508ec 100%);
+}
+
+#section-feature .container-feature{
+    margin: 68.75px 60px 70px 120px;
+}
+#section-feature .oval-top{
+    height: 120.5px;
+    width: 120.5px;
+    box-sizing: border-box;
+    border: 2.5px solid #ffffff;
+    border-radius: 50%;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+#section-feature .oval-top img{
+    height: 36px;
+    width: 36px;
+}
+#section-feature .oval-bottom{
+    margin: -26px 0 0 36px;
+    background-color:#d127f3 ;
+    height: 45.5px;
+    width: 45.5px;
+    border:2px solid #8508ec;
+    border-radius:50% ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+}
+#section-feature .fo-span{
+    height: 42px;
+    width: 77px;
+    text-align: center;
+    display: flex;
+    margin:13.75px 0 0 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    color: #fff;
+    font-family: Roboto;
+}
+#section-member{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0px 10px 10px 0 rgb(0 0 0 / 10%);
+}
+#section-member .with-img{
+    height: 500px;
+    width: 47%;
+    margin: 0 1.5%;
+    float: right;
+}
+#section-member::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+#section-customers{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0px 10px 10px 0 rgb(0 0 0 / 10%) 
+}
+#section-customers::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+#section-customers .p-class, #section-member .p-class{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    display: flex; 
+}
+#section-customers .p-class img, #section-member .p-class img{
+    padding-top: 30px;
+}
+#section-customers .p-class p, #section-member .p-class p{
+    padding-top: 36px !important;
+    padding-left: 20px;
+}
+
+#section-our-customers{
+    background: url('	https://lenguyentrunghieu2001.github.io/CodeFirstGitHub/our-customers.jpg') top center/cover no-repeat;
+    height: 500px;
+}
+#section-our-customers .wrap-img-title{
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 48px 0;
+    font-size: 45px;
+}
+#section-our-customers .wrap-image-group{
+    display: flex;
+    justify-content: space-between !important;
+}
+#section-our-customers .container-face{
+    text-align: center;
+}
+#section-our-customers .container-face img{
+    height: 120px;
+    width: 120px;
+    border: 2px solid #93a4ad;
+    border-radius: 100px;
+    margin-bottom: 16px;
+}
+#section-our-customers .container-face .container-text{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#section-our-customers .container-face .job-text{
+    font-size: 20px;
+}
+#section-our-customers .dot{
+    display: flex;
+    text-align: center;
+    height: 11px;
+    margin: 20px 0 20px 0;
+    padding: 0px;
+    justify-content: center !important;
+}
+#section-our-customers .dot .dot-trigger{
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+#section-our-customers .dot .dot-non-trigger{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+}

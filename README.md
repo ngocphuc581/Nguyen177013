@@ -1,6 +1,8 @@
-### Hi there, I'm Nguyen👋
+<h1 align='center'> Hi there, I'm Nguyen👋 </h1>
+ 
+<p align='center'>I'm currently a 4th years college student at Ho Chi Minh city in Viet Nam </p>
 
-<p>I'm currently a 4th years college student at Ho Chi Minh city in Viet Nam </p>
+<hr>
 
 <h4>🔭  I’m currently working with ...</h4>
 
@@ -55,6 +57,8 @@
 <span>
 <img src="https://camo.githubusercontent.com/c839570bc71901106b11b8411d9277a6a8356a9431e4a16d6c26db82caab7d62/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465"/>
 </span>    
+
+<hr>
 <h4>🌱 I’m currently learning ...</h4>
 
 <span>
@@ -73,6 +77,7 @@
 <img src="https://camo.githubusercontent.com/9a7c7ebbabb2096c0ad0cac6f64bc9fe93f4954a3ae3f51d6f3e076ba462aab1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656475782d2532333539336438382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465"/>
 </span>
 
+<hr>
 <h4>🏫 I'm currently studing on... </h4>
 <span>
 <img src ="https://camo.githubusercontent.com/e117dde00e1266a061581a53c750ab9fc3bcbb55a4467ae7d9873b727a21ffe2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736372696d62612d3242323833413f7374796c653d666f722d7468652d6261646765266c6f676f3d736372696d6261266c6f676f436f6c6f723d7768697465"/>
